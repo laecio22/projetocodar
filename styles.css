@@ -1,0 +1,53 @@
+:root{
+    --red-primary: #D6000D;
+    --black-primary:#000;
+    --white-primary:#fff;
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;   
+    box-sizing: border-box;
+    font-family: "Roboto" , sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    height: 80px;
+}
+
+header p{
+    margin-left: 30px;
+    font-size: 32px;
+    color: var(--red-primary); 
+    font-weight: 600;
+}
+
+header span{
+    color:var(--black-primary);
+}
+
+header nav {
+    margin-right: 30px;
+}
+
+header nav button{
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+    background-color: var(--red-primary);
+    color: var(--white-primary);
+    border: 1px solid var(--red-primary);
+    border-radius: 5px;
+}
+
+.linkNav{
+    text-decoration: none;
+    color:var(--black-primary);
+    font-size: 18px;
+    margin-right: 15px;
+
+}
