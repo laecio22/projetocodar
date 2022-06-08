@@ -57,25 +57,19 @@ header nav button{
     border-radius: 5px;
 }
 
-.link-nav{
-    /* text-decoration: none; */
+.link-nav{  
     color:var(--black-primary);
     font-size: 18px;
     margin-right: 15px;
 
 }
 
-/* main{
-    min-height: 100vh;   
-} */
-
 .container-information{
     display: flex;    
     min-height: 80vh;
-    align-items: center;
-    justify-content: center;
-    /* width: 800px;
-    margin: 0 auto; */
+    align-items: center; 
+    width: 800px;
+    margin: 0 auto;
 
 }
 
@@ -118,11 +112,9 @@ header nav button{
 }
 
 .container-services{
-    min-height: 80vh;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
+    height: 80vh;
+    width: 800px;
+    margin: 100px auto 0; 
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -132,6 +124,10 @@ header nav button{
     display: flex;
     justify-content: center;
     grid-column: 1 / 3;
+}
+
+.container-services .block-list div{
+    display: flex;
 }
 
 .container-services .block-list ul{
@@ -148,8 +144,6 @@ header nav button{
 
 .container-services .block-contact {
     display: flex;
-    flex-direction: column;
-    /* grid-column: 1 / 2; */
-    /* align-items: center; */
-    margin: 0 auto;
+    flex-direction: column; 
+    align-items: flex-start;   
 }
