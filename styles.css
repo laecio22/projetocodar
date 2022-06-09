@@ -2,6 +2,7 @@
     --red-primary: #D6000D;
     --black-primary:#000;
     --white-primary:#fff;
+    --gray-primary: #C8C6C6;
     
 }
 
@@ -9,12 +10,13 @@
     padding: 0;
     margin: 0;   
     box-sizing: border-box;
-    font-family: "Roboto" , sans-serif;
+    
 }
 
 body{
     min-height: 100vh;
     max-width: 100vw;
+    font-family: "Roboto" , sans-serif;
 }
 
 ul {
@@ -23,6 +25,16 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+.fa-circle-check{
+    color: var(--red-primary);
+    margin-right: 10px;
 }
 
 header{
@@ -126,16 +138,21 @@ header nav button{
     grid-column: 1 / 3;
 }
 
-.container-services .block-list div{
-    display: flex;
-}
-
 .container-services .block-list ul{
     width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
+.container-services .block-list ul li{
+    padding-bottom: 10px;
+}
+
+/* .container-information .block-list .fa-solid fa-circle-check{
+    color: var(--red-primary);
+    padding-right: 10px;
+} */
 
 .container-services .block-list img{
     width: 400px;
@@ -146,4 +163,31 @@ header nav button{
     display: flex;
     flex-direction: column; 
     align-items: flex-start;   
+}
+
+.container-services .block-contact p{
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.container-services .block-contact input {
+    height: 35px;
+    width: 150px;
+    margin-right: 5px;
+    border-radius:5px;
+    background-color: var(--gray-primary);
+    border: none;
+    font-size: 14px;
+    padding-left: 10px;
+    
+}
+
+.container-services .block-contact button{
+    height: 35px;
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid var(--red-primary);
+    background-color: var(--red-primary);
+    color: var(--white-primary);
+    font-size: 14px;
 }
