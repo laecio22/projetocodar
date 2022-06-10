@@ -149,11 +149,6 @@ header nav button{
     padding-bottom: 10px;
 }
 
-/* .container-information .block-list .fa-solid fa-circle-check{
-    color: var(--red-primary);
-    padding-right: 10px;
-} */
-
 .container-services .block-list img{
     width: 400px;
     height: 300px;
@@ -190,4 +185,47 @@ header nav button{
     background-color: var(--red-primary);
     color: var(--white-primary);
     font-size: 14px;
+}
+
+.container-comments{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.container-comments div.block-comment:first-child{
+  margin-right: 50px;
+}
+
+.container-comments .block-comment{
+    width: 500px;
+    height: 200px;
+    background-color: var(--gray-primary); 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    /* justify-content: center;
+    align-items: center; */
+   
+}
+
+.container-comments .block-comment .text-info {
+    display: flex;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.container-comments .block-comment .text-info .container-image-author{
+    width:70px;
+    min-height: 70px;
+    background-color: var(--red-primary);
+    border-radius: 50px;
+    margin: 0 15px 0 0;
+}
+
+
+.container-comments .block-comment .text-info .comment .author-info{
+    margin-top: 20px;
+
 }
