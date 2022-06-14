@@ -229,3 +229,14 @@ header nav button{
     margin-top: 20px;
 
 }
+
+footer{
+    min-height: 300px;
+    background-color: var(--black-primary);
+    color: var(--white-primary);
+    display: flex;
+}
+
+footer .box-info-contact{
+    width: 300px;
+}
