@@ -16,21 +16,10 @@ html,
 body {
   width: 100%;
   min-height: 100vh;
+  overflow-x: hidden;  
 }
 
-/* body{
-    min-height: 100vh;
-    max-width: 100vw;
-    min-height: 100vh;
-    width: 100%;
-    border: 1px solid red;
-    font-family: "Roboto" , sans-serif;
-
-} */
-
-main {
-  /* width: 100%;
-    min-height: 100vh; */
+main { 
   min-height: 100vh;
   width: 100vw;
 }
@@ -47,48 +36,19 @@ button {
   cursor: pointer;
 }
 
-.fa-circle-check {
+.fa-circle-check,
+.fa-facebook-square,
+.fa-instagram,
+.fa-twitter-square {
   color: var(--red-primary);
   margin-right: 10px;
-}
-
-@media screen and (max-width: 768px) {
-    .container-information {
-      flex-direction: column;
-    }
-  
-    .container-information .block-image {
-      margin: 0;
-      min-width: 280px;
-    }
-  }
-
-@media screen and (max-width: 450px) {
-  header {
-    flex-direction: column;
-    margin-bottom: 40px;
-  }
-
-  header p {
-    margin: 0;
-  }
-
-  header nav {
-    margin: 0;
-  }
-
-  header nav button {
-    display: none;
-  }
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
-  /* width: 100%; */
-  width: 100vw;
+  height: 80px; 
 }
 
 header p {
@@ -141,8 +101,6 @@ header nav button {
   object-fit: fill;
 }
 
-
-
 .container-information .block-details {
   height: 300px;
   display: flex;
@@ -178,13 +136,11 @@ header nav button {
   margin: 50px auto 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center; 
+  align-items: center;
 }
 
 .container-services .block-list {
-  /* display: flex;
-    justify-content: flex-start;
-    grid-column: 1 / 3; */
+ 
 }
 
 .container-services .block-list ul {
@@ -208,7 +164,7 @@ header nav button {
   width: 100%;
 }
 
-.container-contact{
+.container-contact {
   width: 80%;
   margin: 0 auto;
   min-height: 200px;
@@ -266,7 +222,7 @@ header nav button {
   flex-direction: column;
   justify-content: center;
   border-radius: 10px;
-  flex: 1; 
+  flex: 1;
 }
 
 .container-comments .block-comment .text-info {
@@ -287,13 +243,66 @@ header nav button {
   margin-top: 20px;
 }
 
+.container-comments
+  .block-comment
+  .text-info
+  .comment
+  .author-info
+  p:nth-child(2) {
+  font-weight: bold;
+}
+
 footer {
-  min-height: 300px;
+  min-height: 200px;
   background-color: var(--black-primary);
-  color: var(--white-primary);
-  width: 100vw; 
+  color: var(--white-primary);  
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 footer .box-info-contact {
-  width: 300px;
+  width: 250px;
+  height: 100px;
+}
+
+footer .box-info-contact p {
+  padding-top: 20px;
+}
+
+footer .box-info-contact div {
+  padding-top: 20px;
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .container-information {
+    flex-direction: column;
+  }
+
+  .container-information .block-image {
+    margin: 0;
+    min-width: 280px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  header {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+  header p {
+    margin: 0;
+  }
+
+  header nav {
+    margin: 0;
+  }
+
+  header nav button {
+    display: none;
+  }
 }
