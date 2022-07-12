@@ -133,7 +133,7 @@ header nav button {
 .container-services {
   height: 80vh;
   width: 80%;
-  margin: 50px auto 0;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -278,31 +278,46 @@ footer .box-info-contact div {
 }
 
 @media screen and (max-width: 768px) {
-  .container-information {
-    flex-direction: column;
-  }
 
-  .container-information .block-image {
-    margin: 0;
-    min-width: 280px;
-  }
-}
-
-@media screen and (max-width: 450px) {
   header {
     flex-direction: column;
-    margin-bottom: 40px;
+    margin: 30px 0;
   }
 
   header p {
     margin: 0;
-  }
+    font-size: 40px;
+  }  
 
-  header nav {
-    margin: 0;
+  header nav{
+    margin-right: 0;
   }
 
   header nav button {
     display: none;
   }
+
+  .container-information {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .container-information .block-image {
+    margin: 0;
+    min-width: 280px;
+    width: 300px;
+  }
+
+  .container-information .block-details{
+    align-items: center;
+  }
+
+  .container-services .box-image-service {
+    margin: 0;
+    min-width: 280px;
+  }
 }
+
+
+
