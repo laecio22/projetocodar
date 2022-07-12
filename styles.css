@@ -143,8 +143,7 @@ header nav button {
  
 }
 
-.container-services .block-list ul {
-  width: 400px;
+.container-services .block-list ul { 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -321,6 +320,10 @@ footer .box-info-contact div {
 
   .container-services .block-list{
     grid-row: 2;
+  }
+
+  .container-services .block-list ul{
+    width: 250px;
   }
 
   .container-services .box-image-service {
