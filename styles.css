@@ -182,7 +182,7 @@ header nav button {
 
 .container-contact .block-contact input {
   height: 35px;
-  width: 150px;
+  width: 200px;
   margin-right: 5px;
   border-radius: 5px;
   background-color: var(--gray-primary);
@@ -193,7 +193,7 @@ header nav button {
 
 .container-contact .block-contact button {
   height: 35px;
-  width: 150px;
+  width: 200px;
   border-radius: 5px;
   border: 1px solid var(--red-primary);
   background-color: var(--red-primary);
@@ -331,6 +331,24 @@ footer .box-info-contact div {
     min-width: 280px;
     width: 300px;
     grid-row: 1;
+  }
+
+  .container-contact .block-contact {
+    align-items: center;    
+  }
+
+  .container-contact .block-contact div{
+    display: flex;  
+    flex-direction: column;   
+    row-gap: 15px;
+  }
+
+  .container-contact .block-contact input{
+    width: 220px;
+  }
+
+  .container-contact .block-contact button{
+    width: 220px;
   }
 }
 
