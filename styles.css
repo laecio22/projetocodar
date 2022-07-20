@@ -350,6 +350,20 @@ footer .box-info-contact div {
   .container-contact .block-contact button{
     width: 220px;
   }
+
+  .container-comments{
+    height: 500px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .container-comments div.block-comment:first-child {
+    margin: 0;
+  }
+
+  .container-comments .block-comment{
+    width: 400px;
+  }
 }
 
 
