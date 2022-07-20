@@ -364,6 +364,21 @@ footer .box-info-contact div {
   .container-comments .block-comment{
     width: 400px;
   }
+
+  footer{
+    min-height: 500px;
+    flex-direction: column;
+  }
+
+  footer .box-info-contact {
+    margin: 15px 0;
+  }
+
+  footer .box-info-contact p{
+    padding: 5px 0;
+  }
+
+
 }
 
 
