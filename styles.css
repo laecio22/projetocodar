@@ -275,7 +275,7 @@ footer .box-info-contact div {
   width: 60%;
   justify-content: space-between;
 }
-
+/* media  query  para  mobile */
 @media screen and (max-width: 768px) {
 
   header {
@@ -353,7 +353,8 @@ footer .box-info-contact div {
 
   .container-comments{
     height: 500px;
-    row-gap: 30px;
+    row-gap: 10px;
+    column-gap: 30px;
     flex-wrap: wrap;
   }
 
@@ -362,7 +363,11 @@ footer .box-info-contact div {
   }
 
   .container-comments .block-comment{
-    width: 400px;
+    width: 90%;
+  }
+
+  .container-comments .block-comment .text-info{
+    width: 300px;
   }
 
   footer{
