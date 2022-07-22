@@ -383,7 +383,17 @@ footer .box-info-contact div {
     padding: 5px 0;
   }
 
+}
 
+/* media query para  telas maiores */
+@media screen and (min-width:1370px){
+  .container-information{
+    min-height: 50vh;
+  }
+
+  .container-services{
+    height: 50vh;
+  }
 }
 
 
