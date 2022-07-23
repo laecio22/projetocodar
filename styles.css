@@ -333,6 +333,13 @@ footer .box-info-contact div {
     grid-row: 1;
   }
 
+  .container-contact {
+    margin: 20px auto;    
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+  }
+
   .container-contact .block-contact {
     align-items: center;    
   }
