@@ -165,8 +165,8 @@ header nav button {
 
 .container-contact {
   width: 80%;
-  margin: 0 auto;
-  min-height: 200px;
+  margin: 0 auto; 
+  min-height: 30vh;
 }
 
 .container-contact .block-contact {
