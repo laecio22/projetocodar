@@ -16,11 +16,7 @@
 body {
   width: 100%;
   min-height: 100vh;
-  overflow-x: hidden;  
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
+  overflow-x: hidden;   
 }
 
 ul {
@@ -165,7 +161,7 @@ header nav button {
 .container-contact {
   width: 80%;
   margin: 0 auto; 
-  min-height: 200px;
+  height: 200px;
 }
 
 .container-contact .block-contact {
@@ -337,6 +333,7 @@ footer .box-info-contact div {
     display: flex;
     justify-content: center;    
     align-items: center;
+    height: 300px;
    
   }
 
