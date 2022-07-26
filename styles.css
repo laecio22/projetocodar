@@ -12,17 +12,17 @@
   font-family: "Roboto", sans-serif;
 }
 
-html,
+
 body {
   width: 100%;
   min-height: 100vh;
   overflow-x: hidden;  
 }
 
-main { 
+/* main { 
   min-height: 100vh;
   width: 100vw;
-}
+} */
 
 ul {
   list-style: none;
@@ -166,7 +166,7 @@ header nav button {
 .container-contact {
   width: 80%;
   margin: 0 auto; 
-  min-height: 30vh;
+  min-height: 200px;
 }
 
 .container-contact .block-contact {
