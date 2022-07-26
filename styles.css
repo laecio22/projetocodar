@@ -329,11 +329,11 @@ footer .box-info-contact div {
   }
 
   .container-contact {
-    margin: 20px auto;
+    margin: 40px auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 300px;
   }
 
   .container-contact .block-contact {
