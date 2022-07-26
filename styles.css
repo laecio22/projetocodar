@@ -17,12 +17,11 @@ body {
   width: 100%;
   min-height: 100vh;
   overflow-x: hidden;  
-}
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-/* main { 
-  min-height: 100vh;
-  width: 100vw;
-} */
+}
 
 ul {
   list-style: none;
@@ -338,6 +337,7 @@ footer .box-info-contact div {
     display: flex;
     justify-content: center;    
     align-items: center;
+   
   }
 
   .container-contact .block-contact {
